@@ -1,0 +1,40 @@
+.row{
+    background-color: #0078D4;
+    color: white;
+    height: 6rem;
+    position:relative;
+}
+.titleLogo {
+        font-size:8px;
+        font-weight: bold;
+        line-height: 88px;
+        position:absolute;
+        left: 1rem;
+        
+}
+.sideLogo{
+    font-size:18px;
+    line-height: 88px;
+    position:absolute;
+    right: 1rem;
+}
+@media screen and (min-width: 300px){
+    .titleLogo{
+       font-size:18px;
+    }
+}
+@media screen and (min-width: 600px){
+    .titleLogo{
+        font-size:28px;
+    }
+}
+@media screen and (min-width: 992px){
+    .titleLogo{
+     font-size:32px;
+    }
+}
+@media screen and (min-width: 1140px){
+    .titleLogo{
+       font-size:38px;
+    }
+}   

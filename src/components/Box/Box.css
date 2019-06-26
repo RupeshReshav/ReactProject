@@ -1,0 +1,23 @@
+.layout{
+    padding: 0.5rem;
+    margin: 1 rem 0;
+    
+}
+.box{
+    height:100px;
+    width:auto;   
+    
+}
+.container{
+    position:relative;
+    
+}
+h5{
+    position:absolute;
+    display: block;
+    bottom:-0.6rem;
+    left: 1rem;
+    cursor:pointer;
+    transition: all 0.3s linear;
+    
+}
